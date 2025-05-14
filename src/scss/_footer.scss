@@ -1,0 +1,16 @@
+@use './resets';
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	background: #0d1b2a;
+	padding: 0.4em 0;
+
+	.copyright {
+		font-size: 0.9rem;
+		color: #fff;
+	}
+}

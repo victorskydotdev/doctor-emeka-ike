@@ -16,7 +16,7 @@ module.exports = {
 			template: './src/index.html',
 			filename: 'index.html',
 			chunks: ['main'],
-			// favicon:
+			favicon: './src/media-assets/favicon.png',
 		}),
 	],
 
