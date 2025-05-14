@@ -4,7 +4,6 @@
 	"version": "1.0.0",
 	"description": "",
 	"license": "ISC",
-	"type": "module",
 	"author": "Victor Sky Emejor",
 	"main": "webpack.config.common.js",
 	"scripts": {
