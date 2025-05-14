@@ -1,0 +1,28 @@
+@use './resets';
+
+.header {
+	width: 90%;
+	margin: 0 auto;
+	height: 20vh;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 2;
+	position: relative;
+
+	.brand-wrap {
+		img {
+			width: 200px;
+		}
+	}
+
+	.burger-wrap {
+		cursor: pointer;
+
+		i {
+			font-size: 2rem;
+			line-height: 0;
+			color: #0d1b2a;
+		}
+	}
+}

@@ -4,14 +4,45 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+		<!-- lottie files CDN -->
+		<script
+			src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"
+			type="module"></script>
+
 		<!-- page title -->
 		<title>Dr. Emeka Ike | Coming soon</title>
 	</head>
 	<body class="body">
+		<header class="header" id="header">
+			<div class="brand-wrap">
+				<img src="./media-assets/black_logo-mod.png" alt="" />
+			</div>
+
+			<div class="burger-wrap">
+				<i class="fi fi-rr-menu-burger"></i>
+			</div>
+		</header>
+
 		<main class="hero-section">
 			<div class="content">
-				<h1 class="heading">This website belongs to Doctor Ike...</h1>
-				<h1 class="heading">...and is currentlty being worked on</h1>
+				<div class="img-wrap">
+					<dotlottie-player
+						src="https://lottie.host/ce310199-44fa-4cf4-b314-028f7846024b/7bXtTwyU9M.lottie"
+						background="transparent"
+						speed="1"
+						style="width: 80%; height: 350px; margin: 0 auto; display: none"
+						loop
+						autoplay></dotlottie-player>
+				</div>
+
+				<form action="" netlify>
+					<h3 class="heading">Get notified when we launch</h3>
+
+					<div class="wrap">
+						<input type="email" placeholder="name@email.com" required />
+						<button>Submit</button>
+					</div>
+				</form>
 			</div>
 		</main>
 	</body>

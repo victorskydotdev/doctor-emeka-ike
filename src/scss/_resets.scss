@@ -1,7 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+// flaticon CDN
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
 *,
 *::before,
 *::after {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+}
+
+body {
+	background: #faf9f6;
+}
+
+@mixin playfair-display-font {
+	font-family: 'Playfair Display', serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: normal;
 }
